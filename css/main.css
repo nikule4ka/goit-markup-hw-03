@@ -26,31 +26,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* logo */
-.logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.logo.main {
-  color: var(--accent-color);
-}
-
-.logo.second {
-  color: var(--second-logo-color);
-}
-
-.logo.white {
-  color: var(--primary-white-color);
-}
-
 /* a classes */
 a {
   text-decoration: none;
 }
+
+/* стили для index.html */
 
 /* header */
 .page-header {
@@ -70,9 +51,85 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid black; */
-
   /* display: flex; */
 }
+
+.list.item {
+  padding-top: 93px;
+}
+
+/* logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo.main {
+  color: var(--accent-color);
+}
+
+.logo.second {
+  color: var(--second-logo-color);
+}
+
+.logo.white {
+  color: var(--primary-white-color);
+}
+
+/* sections */
+
+.section {
+  padding-bottom: 94px;
+}
+
+.section.features {
+  padding-top: 94px;
+}
+
+.section .section-title .title {
+  margin-top: 0;
+  margin-bottom: 10;
+  color: var(--first-title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Hero */
+
+.hero {
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 /* site nav */
 
 .site-nav {
@@ -106,60 +163,6 @@ a {
 
 .link.primary {
   color: var(--accent-color);
-}
-
-/* sections */
-
-.section {
-  padding-bottom: 94px;
-}
-
-.section.features {
-  padding-top: 94px;
-}
-
-.section .section-title .title {
-  margin-top: 0;
-  margin-bottom: 10;
-  color: var(--first-title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
-/* стили для index.html */
-
-/* Hero */
-
-.hero {
-  text-align: center;
-  background: rgba(47, 48, 58, 0.8);
-}
-
-.hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
-  color: var(--primary-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.3;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-/* Button */
-.button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  text-decoration: none;
 }
 
 /* about us */
@@ -316,18 +319,36 @@ a {
 
 /* proects */
 
+.list.projects {
+  padding-top: 34px;
+}
+
+.project {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
 .proects-title {
   color: var(--first-title-text-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  padding-top: 20px;
+  padding-bottom: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .subtitle-proects {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .text-proects {
