@@ -18,9 +18,9 @@
   <body>
     <!-- шапка страницы -->
     <header class="page-header">
-      <div class="container">
+      <div class="container main-header">
         <!-- логотип компании -->
-        <a href="./">
+        <a href="./" class="logo-header">
           <span class="logo main">Web</span>
           <span class="logo second">Studio</span>
         </a>
@@ -28,9 +28,13 @@
         <!-- главная навигация -->
         <nav>
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
 
@@ -62,32 +66,40 @@
           <h2 class="section-title" hidden>О нас</h2>
 
           <ul class="about-us list">
-            <li>
-              <img src="./images/antenna-1.svg" alt="антенна" />
+            <li class="item">
+              <div class="img-about">
+                <img src="./images/antenna-1.svg" alt="антенна" />
+              </div>
               <h3 class="title">Внимание к деталям</h3>
               <p class="content">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
-              <img src="./images/clock-1.svg" alt="часы" />
+            <li class="item">
+              <div class="img-about">
+                <img src="./images/clock-1.svg" alt="часы" />
+              </div>
               <h3 class="title">Пунктуальность</h3>
               <p class="content">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
-              <img src="./images/diagram-1.svg" alt="диаграмма" />
+            <li class="item">
+              <div class="img-about">
+                <img src="./images/diagram-1.svg" alt="диаграмма" />
+              </div>
               <h3 class="title">Планирование</h3>
               <p class="content">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
-              <img src="./images/astronaut-1.svg" alt="астронавт" />
+            <li class="item">
+              <div class="img-about">
+                <img src="./images/astronaut-1.svg" alt="астронавт" />
+              </div>
               <h3 class="title">Современные технологии</h3>
               <p class="content">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -104,21 +116,21 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
 
           <ul class="work-list list">
-            <li>
+            <li class="item">
               <a href=""
                 ><img src="./images/img-laptop.jpg" alt="ноутбук" width="370"
               /></a>
               <h3 class="title title-utilities">Десктопные приложения</h3>
             </li>
 
-            <li>
+            <li class="item">
               <a href=""
                 ><img src="./images/box-phone.jpg" alt="телефон" width="370"
               /></a>
               <h3 class="title title-utilities">Мобильные приложения</h3>
             </li>
 
-            <li>
+            <li class="item">
               <a href=""
                 ><img
                   src="./images/img-computer.jpg"
@@ -136,8 +148,8 @@
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="about-us list">
+            <li class="item">
               <img
                 src="./images/Product-Designer.jpg"
                 alt="дизайнер"
@@ -155,7 +167,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/Frontend-Developer.jpg"
                 alt="фронтенд разработчик"
@@ -173,7 +185,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./images/Marketing.jpg" alt="Маркетинг" width="270" />
               <h3 class="author-title">Андрей Шевченко</h3>
               <p class="author-text">Marketing</p>
@@ -188,7 +200,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./images/UI-Designer.jpg" alt="дизайнер" width="270" />
               <h3 class="author-title">Иван Николаев</h3>
               <p class="author-text">UI Designer</p>
