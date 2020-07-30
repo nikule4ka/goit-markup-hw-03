@@ -293,7 +293,7 @@ a {
   background-color: var(--primary-white-color);
 }
 
-.section.team .autor-title {
+.item .autor-title {
   color: var(--first-title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
