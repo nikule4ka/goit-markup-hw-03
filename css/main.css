@@ -44,7 +44,6 @@ a {
 }
 
 .container {
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1230px;
@@ -52,10 +51,6 @@ a {
   padding-right: 15px;
   /* outline: 2px solid black; */
   /* display: flex; */
-}
-
-.list.item {
-  padding-top: 93px;
 }
 
 /* logo */
@@ -151,6 +146,11 @@ a {
 .site-nav .contacts {
   color: var(--primary-text-color);
   display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .site-nav .contacts:hover,
@@ -224,7 +224,6 @@ a {
   background: var(--second-bg-color);
 }
 .content {
-  color: var(--primary-text-color);
   margin-top: 0;
   margin-bottom: 0;
 
@@ -281,9 +280,22 @@ a {
   margin-right: 0px;
 }
 
+.button.footer  {
+	margin-left: 370px;
+
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+}
+
 /*our team */
 
-.section.team {
+.section .team {
   background-color: var(--second-bg-color);
   padding-top: 94px;
 }
@@ -293,7 +305,18 @@ a {
   background-color: var(--primary-white-color);
 }
 
-.item .autor-title {
+
+.section.team {
+  background-color: var(--second-bg-color);
+  padding-top: 94px;
+} 
+
+
+
+.about-us.list {
+  text-align: center;
+}
+.name-team {
   color: var(--first-title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
@@ -304,13 +327,19 @@ a {
   text-align: center;
 }
 
-.autor-text {
+.name-text {
   margin-top: 0;
   margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
+
+.item-links {
+  margin-right: 10px;
+}
+
 
 /* our clients */
 .section.clients {
@@ -318,14 +347,26 @@ a {
   padding-bottom: 94px;
 }
 
+.section.list {
+  display: flex;
+}
+
+.section.list .item.clients {
+  width: calc((100% - 150px) / 6);
+  margin-right: 30px;
+}
+
 /* Footer section */
 .bg-footer {
   background-color: var(--bg-color-footer);
 }
 
+.bg-footer .container {
+  display: flex;
+}
+
 .address-footer {
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -335,6 +376,11 @@ a {
 .address {
   color: var(--primary-white-color);
 
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+
   display: inline-block;
   margin-top: 0;
   margin-bottom: 9px;
@@ -342,21 +388,28 @@ a {
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
 
   display: inline-block;
   margin-bottom: 9px;
 }
 
 .container .join {
-  padding-top: 72px;
-  padding-left: 69px;
-  padding-bottom: 100px;
+  padding-top: 74px;
+  padding-left: 147px;
+}
+
+.links.list {
+  display: flex;
+  justify-content: center;
 }
 
 .sigh {
   padding-top: 72px;
   padding-left: 94px;
-  padding-bottom: 94px;
 }
 
 .join-us {
@@ -370,15 +423,26 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 /* стили для portfolio */
 
 /* Buttons navigation */
+
+.list.portfolio {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.portfolio-button {
+  margin-left: 8px;
+}
+
 .radio-button {
   color: var(--first-title-text-color);
   background-color: var(--second-bg-color);
+  text-align: center;
 
-  font-family: inherit;
-  text-decoration: none;
 }
 
 .radio-button:hover,
@@ -386,6 +450,7 @@ a {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
 
 /* proects */
 
