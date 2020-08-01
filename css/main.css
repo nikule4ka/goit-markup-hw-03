@@ -475,6 +475,7 @@ a {
 
 .portfolio-card-content {
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .flex-container:nth-child(3n) {
@@ -526,6 +527,9 @@ a {
   margin-bottom: 0;
 }
 
+.project-links {
+  display: block;
+}
 /* .portfolio-card-content {
   border: 1px solid #eeeeee;
 } */
